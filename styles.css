@@ -58,7 +58,8 @@ h2{
 }
 
 .navbar-toggler{
-    margin-bottom: 50px;
+    margin-bottom: 15%;
+    margin-left: 50%;
 }
 
 .active-page{
@@ -86,15 +87,11 @@ h2{
     font-size: 160%;
 }
 
-#art-carousel{
-    margin-top: 150px;
-}
-
 .control-prev-home{
-    margin-top: 40%;
+    margin-top: 40% -10%;
 }
 .control-next-home{
-    margin-top: 40%;
+    margin-top: 40% -10%;
 }
 
 #gallery{
