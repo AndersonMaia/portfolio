@@ -18,16 +18,13 @@ h2{
 }
 
 .logo-img{
-    width: 100px;
-    margin-left: 30px;
-    margin-right: 5px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .page-title{
     font-weight: 400;
     font-size: 90%;
-    margin-left: 30%;
-    margin-right: 30%;
 }
 .page-title hr{
     border-style: none;
@@ -140,7 +137,8 @@ h2{
 }
 
 .stock-logo{
-    height: 10vw;
+    height: 150px;
+    object-fit: cover;
 }
 
 .conditions-paragraph{
