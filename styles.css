@@ -57,6 +57,10 @@ h2{
     background-color: #3b3b3b;
 }
 
+.navbar-toggler{
+    margin-bottom: 50px;
+}
+
 .active-page{
     background-color: #641616;
 }
@@ -83,7 +87,7 @@ h2{
 }
 
 #art-carousel{
-    margin-top: 5%;
+    margin-top: 150px;
 }
 
 .control-prev-home{
