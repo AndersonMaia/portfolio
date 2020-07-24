@@ -136,7 +136,11 @@ h2{
 .stock-paragraph{
     text-align: left;
     margin-top: 15px;
-    margin-left: -30%;
+    margin-left: 23%;
+}
+
+.stock-logo{
+    height: 10vw;
 }
 
 .conditions-paragraph{
@@ -144,12 +148,6 @@ h2{
     margin-top: 15px;
     margin-left: 23%;
     margin-right: 15%;
-}
-
-.stock-logo{
-    height: 12vw;
-    margin-top: 17px;
-    margin-right: -20%;
 }
 
 .custom-link{
