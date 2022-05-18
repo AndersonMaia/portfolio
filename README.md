@@ -1,2 +1,2 @@
-# portfolio01
-Personal Portfolio V01
+# portfolio
+Personal Portfolio
