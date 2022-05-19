@@ -226,3 +226,7 @@ form {
     width: 100%;
     align-items: center;
 }
+
+.btn-submit{
+    min-width: 60px;
+}
