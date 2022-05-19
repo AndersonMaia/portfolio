@@ -7,14 +7,14 @@ body{
     padding: 0;
 }
 
-h1{
+h2{
     font-weight: 300;
     font-size: 100%;
     padding-top: 15px;
     letter-spacing: 1px;
 }
 
-h2{
+h3{
     text-decoration: none;
     font-weight: 400;
     font-size: 100%;
@@ -94,6 +94,17 @@ h6{
     font-size: 210%;
     margin: 20px 10px 30px;
 }
+
+.iconify-form{
+    font-size: 150%;
+    color: rgb(24, 24, 24);
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+
 .artstation{
     font-size: 160%;
 }
@@ -157,12 +168,6 @@ h6{
     margin-top: 1px;
 }
 
-
-.stock-logo{
-    height: 150px;
-    object-fit: cover;
-}
-
 .conditions-paragraph{
     text-align: left;
     margin-top: 15px;
@@ -171,7 +176,7 @@ h6{
 }
 
 .custom-link{
-    color: #772121 !important;
+    color: #b11010 !important;
     text-decoration: none !important;
 }
 
@@ -197,3 +202,20 @@ h6{
     padding-top: 5%;
 }
 
+
+.contact-form {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 10%;
+}
+
+form {
+    width: 100%;
+    align-items: center;
+}
