@@ -1,2 +1,2 @@
 # portfolio
-Personal Illustration Portfolio
+Personal Illustration and 3D Portfolio

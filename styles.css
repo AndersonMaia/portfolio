@@ -1,50 +1,61 @@
 body{
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     color: #b9b9b9;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
-    font-weight: 700;
-    font-size: 140%;
-    padding-top: 10px;
+    font-weight: 300;
+    font-size: 100%;
+    padding-top: 15px;
+    letter-spacing: 1px;
 }
 
-h2{
-    text-decoration: underline;
-    font-weight: 400;
-    font-size: 110%;
+
+h6{
+    text-decoration: none;
+    font-weight: 150;
+    font-size: 90%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    padding: 0%;
+    margin: auto;
+}
+
+.col{
+    position:static;
+    padding: 0;
 }
 
 .logo-img{
     height: 100px;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 .page-title{
     font-weight: 400;
     font-size: 90%;
 }
+
 .page-title hr{
     border-style: none;
     border-top-style: solid;
     border-color: #b9b9b9;
     border-width: 1px;
-    width: 70%;
-    margin-top: 1px;
-}
-
-.stock-hr{
-    border-style: none;
-    border-top-style: solid;
-    border-color: #b9b9b9;
-    border-width: 1px;
-    width: 70%;
+    width: 50%;
     margin-top: 1px;
 }
 
 .navbar{
+    position: inherit;
     color:#b9b9b9;
 }
 
@@ -54,7 +65,7 @@ h2{
 }
 
 .nav-item :hover {
-    background-color: #3b3b3b;
+    background-color: #220706;
 }
 
 .active-page{
@@ -132,6 +143,16 @@ h2{
     margin-left: 23%;
 }
 
+.stock-hr{
+    border-style: none;
+    border-top-style: solid;
+    border-color: #b9b9b9;
+    border-width: 1px;
+    width: 70%;
+    margin-top: 1px;
+}
+
+
 .stock-logo{
     height: 150px;
     object-fit: cover;
@@ -166,3 +187,8 @@ h2{
     text-align: center;
     margin: 200px 200px;
 }
+
+.clients-list{
+    padding-top: 5%;
+}
+
