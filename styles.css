@@ -104,6 +104,13 @@ h6{
     align-self: center;
 }
 
+.iconify-send{
+    font-size: 150%;
+    color: white;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
 
 .artstation{
     font-size: 160%;
