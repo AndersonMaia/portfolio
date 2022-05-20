@@ -40,9 +40,27 @@ h6{
     padding: 0;
 }
 
+
 .logo-img{
-    height: 100px;
+    height: 60px;
     object-fit: scale-down;
+    position: relative;
+    margin-left: -10%;
+    margin-top: 1%;
+}
+
+
+.art-of{
+    display: inline-block;
+    position: relative;
+    margin-left: -20%;
+    margin-right: -20%;
+    margin-bottom: 1%;
+    padding-right: 170px;
+}
+
+.carousel{
+    padding-top: 10px;
 }
 
 .page-title{
@@ -78,7 +96,7 @@ h6{
 }
 
 .art-image{
-    height: 50vw;
+    height: 30vw;
     margin-top: 15px;
     margin-bottom: 50px;
 }
@@ -117,10 +135,10 @@ h6{
 }
 
 .control-prev-home{
-    margin: 40% -5%;
+    margin: 20% -5%;
 }
 .control-next-home{
-    margin: 40% -5%;
+    margin: 20% -5%;
 }
 
 #gallery{
@@ -149,6 +167,24 @@ h6{
 .modal-title{
     color: #641616;
 }
+
+.modal-content{
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+.modal-content:active {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform-origin: center;
+    -webkit-transform-origin: center;
+  }
 
 .img-thumbnail{
     border-width: 1px;
