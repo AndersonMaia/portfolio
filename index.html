@@ -1,269 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Art of Anderson Maia</title>
-    <!--BOOTSTRAP-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <!--FONTS-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;900&family=Roboto:wght@300;400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <!--ICONS <div class="main-container">-->
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-    <!--CSS-->
-    <link rel="stylesheet" href="styles.css" />
-    <!--FAVICON-->
-    <link rel="icon" type="image/png" href="images/logos/favicon_light.png" />
-  </head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Art of Anderson Maia</title>
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!--FONTS-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;900&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <!--ICONS-->
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        <!--CSS-->
+        <link rel="stylesheet" href="styles.css">
+        <!--FAVICON-->
+        <link rel="icon" type="image/png" href="images/logos/logo_light.png"/>
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- TITLE SECTION -->
+            <section id="title">
+                <!-- Nav Bar -->
+                <nav class="navbar navbar-default navbar-expand-lg navbar-dark">
+                    <div class="row">
+                        <img class="logo-img col" src="images/logos/logo_light.png" alt="logo">
+                        <div class= "art-of col">
+                            <h2>Anderson Maia</h2>
+                            <h6>Illustrator / Concept Artist / 3D Modeller</h6>
+                            <h6>andersonmaiaart@gmail.com</h6>
+                        </div>
+                    </div>
+                    
+                    <button class="navbar-toggler col-md" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-nowrap active-page" href="index.html">ILLUSTRATIONS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-nowrap" href="about-me.html">ABOUT ME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-nowrap" href="stock-art.html">STOCK ART</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-nowrap" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
 
-  <body>
-    <div class="main-container">
-      <!-- TITLE SECTION -->
-      <section id="title">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-default navbar-expand-lg navbar-dark">
-          <div class="row">
-            <img
-              class="logo-img col"
-              src="images/logos/logo_light.png"
-              alt="logo"
-            />
-            <div class="art-of col">
-              <h2>The Art of Anderson Maia</h2>
-              <h6>andersonmaiaart@gmail.com</h6>
-            </div>
-          </div>
+            <!-- GALLERY SECTION -->
+            <section id="gallery">
+                <div class="row" id="grid-gallery" data-toggle="modal" data-target="#illustrationModal">
 
-          <button
-            class="navbar-toggler col-md"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarToggler"
-            aria-controls="navbarToggler"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link text-nowrap active-page" href="index.html"
-                  >HOME</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="illustrations.html"
-                  >ILLUSTRATIONS</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="about-me.html"
-                  >ABOUT ME</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="stock-art.html"
-                  >STOCK ART</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-nowrap" href="contact.html">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </section>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_022.jpg" data-target="#illustrationImg" data-slide-to="21">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_023.jpg" data-target="#illustrationImg" data-slide-to="22">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_024.jpg" data-target="#illustrationImg" data-slide-to="23">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_026.jpg" data-target="#illustrationImg" data-slide-to="24">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_027.jpg" data-target="#illustrationImg" data-slide-to="25">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_028.jpg" data-target="#illustrationImg" data-slide-to="26">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_029.jpg" data-target="#illustrationImg" data-slide-to="27">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_030.jpg" data-target="#illustrationImg" data-slide-to="28">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_031.jpg" data-target="#illustrationImg" data-slide-to="29">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_032.jpg" data-target="#illustrationImg" data-slide-to="30">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_033.jpg" data-target="#illustrationImg" data-slide-to="31">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_034.jpg" data-target="#illustrationImg" data-slide-to="32">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_035.jpg" data-target="#illustrationImg" data-slide-to="33">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_036.jpg" data-target="#illustrationImg" data-slide-to="34">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_037.jpg" data-target="#illustrationImg" data-slide-to="35">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_038.jpg" data-target="#illustrationImg" data-slide-to="36">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_039.jpg" data-target="#illustrationImg" data-slide-to="37">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_040.jpg" data-target="#illustrationImg" data-slide-to="38">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_041.jpg" data-target="#illustrationImg" data-slide-to="39">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_042.jpg" data-target="#illustrationImg" data-slide-to="40">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_043.jpg" data-target="#illustrationImg" data-slide-to="41">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_044.jpg" data-target="#illustrationImg" data-slide-to="42">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_045.jpg" data-target="#illustrationImg" data-slide-to="43">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_046.jpg" data-target="#illustrationImg" data-slide-to="44">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_047.jpg" data-target="#illustrationImg" data-slide-to="45">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_048.jpg" data-target="#illustrationImg" data-slide-to="46">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_049.jpg" data-target="#illustrationImg" data-slide-to="47">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_050.jpg" data-target="#illustrationImg" data-slide-to="48">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_051.jpg" data-target="#illustrationImg" data-slide-to="49">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_052.jpg" data-target="#illustrationImg" data-slide-to="50">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_053.jpg" data-target="#illustrationImg" data-slide-to="51">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_054.jpg" data-target="#illustrationImg" data-slide-to="52">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_055.jpg" data-target="#illustrationImg" data-slide-to="53">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_056.jpg" data-target="#illustrationImg" data-slide-to="54">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_057.jpg" data-target="#illustrationImg" data-slide-to="55">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_058.jpg" data-target="#illustrationImg" data-slide-to="56">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_001.jpg" data-target="#illustrationImg" data-slide-to="0">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_002.jpg" data-target="#illustrationImg" data-slide-to="1">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_003.jpg" data-target="#illustrationImg" data-slide-to="2">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_004.jpg" data-target="#illustrationImg" data-slide-to="3">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_005.jpg" data-target="#illustrationImg" data-slide-to="4">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_006.jpg" data-target="#illustrationImg" data-slide-to="5">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_007.jpg" data-target="#illustrationImg" data-slide-to="6">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_008.jpg" data-target="#illustrationImg" data-slide-to="7">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_009.jpg" data-target="#illustrationImg" data-slide-to="8">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_010.jpg" data-target="#illustrationImg" data-slide-to="9">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_011.jpg" data-target="#illustrationImg" data-slide-to="10">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_012.jpg" data-target="#illustrationImg" data-slide-to="11">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_013.jpg" data-target="#illustrationImg" data-slide-to="12">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_014.jpg" data-target="#illustrationImg" data-slide-to="13">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_015.jpg" data-target="#illustrationImg" data-slide-to="14">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_016.jpg" data-target="#illustrationImg" data-slide-to="15">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_017.jpg" data-target="#illustrationImg" data-slide-to="16">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_018.jpg" data-target="#illustrationImg" data-slide-to="17">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_019.jpg" data-target="#illustrationImg" data-slide-to="18">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_020.jpg" data-target="#illustrationImg" data-slide-to="19">
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <img class="w-100 img-thumbnail" src="images/illustrations/anderson_maia_illustrator_021.jpg" data-target="#illustrationImg" data-slide-to="20">
+                    </div>
 
-      <!-- CAROUSEL SECTION -->
-      <section id="carousel">
-        <div
-          id="art-carousel"
-          class="carousel slide"
-          data-ride="carousel"
-          data-interval="5000"
-        >
-          <h3>Highlights</h3>
-          <ol class="carousel-indicators">
-            <li
-              data-target="#art-carousel"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#art-carousel" data-slide-to="1"></li>
-            <li data-target="#art-carousel" data-slide-to="2"></li>
-            <li data-target="#art-carousel" data-slide-to="3"></li>
-            <li data-target="#art-carousel" data-slide-to="4"></li>
-            <li data-target="#art-carousel" data-slide-to="5"></li>
-            <li data-target="#art-carousel" data-slide-to="6"></li>
-          </ol>
+                </div>
 
-          <div class="carousel-inner">
-            <div class="carousel-item inner-item active container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_012.jpg"
-                alt="snake-priest"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_006.jpg"
-                alt="marys-lamb"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_016.jpg"
-                alt="cantina"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_049.jpg"
-                alt="scifi-army"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_055.jpg"
-                alt="alien-planet"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_005.jpg"
-                alt="viking-undead"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_015.jpg"
-                alt="barbarian"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_003.jpg"
-                alt="cyberpunk-soldier"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_017.jpg"
-                alt="undead-cleric"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_022.jpg"
-                alt="roc"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_039.jpg"
-                alt="scifi-characters"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_056.jpg"
-                alt="fantasy-characters"
-              />
-            </div>
-            <div class="carousel-item inner-item container-fluid">
-              <img
-                class="art-image"
-                src="images/illustrations/anderson_maia_illustrator_044.jpg"
-                alt="creatures"
-              />
-            </div>
-          </div>
+                <div class="modal fade" id="illustrationModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close btn-sm" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        <div class="modal-body">
+                            <!-- Carousel markup goes in the modal body -->
+                            
+                            <div id="illustrationImg" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
 
-          <div>
-            <a
-              class="carousel-control-prev control-prev-home"
-              href="#art-carousel"
-              role="button"
-              data-slide="prev"
-            >
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a
-              class="carousel-control-next control-next-home"
-              href="#art-carousel"
-              role="button"
-              data-slide="next"
-            >
-              <span class="carousel-control-next-icon"></span>
-            </a>
-          </div>
+                                <div class="carousel-item active">
+                                    <h5 class="modal-title">Musketeer's Ambush</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_001.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Pirate's Treasure</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_002.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Sci Fi Soldier</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_003.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Centaur</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_004.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Undead Viking</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_005.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Mary's Lamb</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_006.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Ophidian Ronin</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_007.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Orc</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_008.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Paizo Fanart</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_009.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Paizo Fanart</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_010.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Paizo Fanart</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_011.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Skull Priest of the Snake God</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_012.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Subject 13</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_013.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Documents Collection</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_014.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Barbarian</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_015.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Cantina</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_016.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Cleric</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_017.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Witch</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_018.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Dungeoneer</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_019.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Sorcerer</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_020.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Ranger</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_021.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Roc</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_022.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Sea of Thieves</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_023.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_024.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Gnome Ranger</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_026.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Alruin</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_027.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Highway Man</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_028.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Sci-Fi Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_029.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Sci-Fi Merchant</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_030.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Giant Slayer</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_031.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Fantasy Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_032.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Dagari Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_033.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Fantasy Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_034.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Fantasy Props</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_035.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_036.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_037.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_038.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_039.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Sea of Thieves</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_040.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Vargrs</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_041.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Vargrs and Aslans Details</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_042.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Alien Creatures</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_043.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Alien Creatures</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_044.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Alien Creatures</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_045.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Alien Creatures</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_046.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Alien Creatures</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_047.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_048.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Galian Forces</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_049.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Local Forces</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_050.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Viyard Mercenaries</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_051.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Alien Creatures</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_052.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Alien Creatures</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_053.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Traveller Alien Creatures</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_054.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Alien Planet Scene</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_055.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Fantasy Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_056.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Fantasy Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_057.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <h5 class="modal-title">Fantasy Characters</h5>
+                                    <img class="d-block w-100" src="images/illustrations/anderson_maia_illustrator_058.jpg">
+                                </div>
+
+                            </div>
+                            <a class="carousel-control-prev" href="#illustrationImg" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#illustrationImg" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER SECTION -->
+            <footer id="footer">
+                <div class="container-fluid">
+                    <a href="https://www.instagram.com/andersonmaia_art" target="_blank"><span class="iconify" data-icon="ant-design:instagram-outlined" data-inline="false"></span></a>
+                    <a href="https://www.artstation.com/anderson_maia" target="_blank"><span class="iconify artstation" data-icon="fa-brands:artstation" data-inline="false"></span></a>
+                    <a href="contact.html"><span class="iconify" data-icon="bx-bx-envelope" data-inline="false"></span></a>
+                <p>©2020-2022 Anderson Maia</p>
+                </div>
+            </footer>
         </div>
-      </section>
-
-      <!-- FOOTER SECTION -->
-      <footer id="footer">
-        <div class="container-fluid">
-          <a href="https://www.instagram.com/andersonmaia_art" target="_blank"
-            ><span
-              class="iconify"
-              data-icon="ant-design:instagram-outlined"
-              data-inline="false"
-            ></span
-          ></a>
-          <a href="https://www.artstation.com/anderson_maia" target="_blank"
-            ><span
-              class="iconify artstation"
-              data-icon="fa-brands:artstation"
-              data-inline="false"
-            ></span
-          ></a>
-          <a href="contact.html"
-            ><span
-              class="iconify"
-              data-icon="bx-bx-envelope"
-              data-inline="false"
-            ></span
-          ></a>
-          <p>©2020-2022 Anderson Maia</p>
-        </div>
-      </footer>
-    </div>
-    <script src="main.js"></script>
-  </body>
+        <script src="main.js"></script>
+    </body>
 </html>
